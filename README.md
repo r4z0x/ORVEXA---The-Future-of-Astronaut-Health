@@ -70,6 +70,40 @@ Linux:
 - Paginated history (200 records per page); full export includes the entire database. Large charts retain peaks and troughs when display points are reduced.
 - Settings and chat drafts are preserved while navigating and waiting for responses. Up to 8 recent chat messages are included as context.
 
+
+## NASA Science sourses
+
+NASA Research References
+ORVEXA is designed around astronaut health monitoring concepts and physiological considerations relevant to human spaceflight. The project’s health indicators, recovery monitoring concepts, and exercise-related features are aligned with research and publicly available educational resources from NASA.
+
+The following NASA resources provide scientific and operational context for the project:
+
+1. NASA Human Research Program (HRP)
+https://humanresearchroadmap.nasa.gov/evidence/
+
+NASA’s Human Research Program documents health and performance risks associated with human spaceflight, including cardiovascular changes, sleep loss, fatigue, bone health, and reduced physical performance. These research areas are relevant to ORVEXA’s health monitoring categories.
+
+2. NASA Open Science Data Repository (OSDR)
+https://osdr.nasa.gov/
+
+NASA’s Open Science Data Repository provides access to spaceflight-related biological, physiological, behavioral, and other research datasets. It represents a potential source for future research-based data integration and validation of ORVEXA.
+
+3. NASA — Astronaut Exercise
+https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/
+
+This resource describes exercise countermeasures used aboard the International Space Station, including the Advanced Resistive Exercise Device (ARED) and Cycle Ergometer with Vibration Isolation and Stabilization (CEVIS). These systems provide context for ORVEXA’s microgravity-oriented workout concepts.
+
+4. NASA — Human System Risks
+https://www.nasa.gov/hhp/human-system-risks/
+
+NASA’s overview of human-system risks provides additional context on health and performance challenges during spaceflight, including cardiovascular, musculoskeletal, behavioral health, and sleep-related risks.
+
+Data and Implementation Note
+ORVEXA is an independent research prototype. It does not directly connect to NASA systems, onboard spacecraft sensors, or live astronaut health databases. All measurements are entered manually by the user and stored locally on the computer.
+
+NASA resources listed above are provided as scientific and operational references. The current prototype does not automatically download or process NASA OSDR datasets. Future versions may explore integration with publicly available spaceflight research datasets.
+
+
 ## AI Setup
 
 Both AI providers are supported. Until a model is connected, analysis opens Settings. The built-in workout plan is explicitly labeled as a **Sample Plan** and is not presented as an AI result.
